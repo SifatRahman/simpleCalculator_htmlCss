@@ -1,0 +1,68 @@
+body{
+    background-image:linear-gradient(to right, rgb(0,0,0,0.5) , rgb(0,0,0,0.1)) ,url("cal.jpg");
+    
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+#calculator{
+    height: 520px;
+    width: 320px;
+    background:#878a8a;
+    border-radius: 9px;
+    margin:5% 0% 0% 14%;
+    box-shadow: 30px 30px 50px 2px rgba(0,0,0,0.6);
+    border: 1px solid black;
+}
+#result{
+height:120px;
+background-color: rgb(228, 225, 220);
+border-radius: 9px;
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin:0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color:#919191;
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+.operator,.empty,.number{
+    height:50px;
+    width: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-size: 15px;
+    font-weight: bold;
+    color:black;
+}
+.number,.empty{
+    background: #878a8a;
+}
+
+.empty:focus{
+outline:0;
+}
+.number,.operator{
+    cursor:pointer;
+}
+.number:active,.operator:active{
+    font-size: 13px;
+}
+.number:focus,.operator:focus{
+    outline: 0;
+
+}
+
