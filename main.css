@@ -14,7 +14,7 @@ body{
     width: 320px;
     background:#878a8a;
     border-radius: 9px;
-    margin:5% 0% 0% 14%;
+    margin:9% 0% 0% 14%;
     box-shadow: 30px 30px 50px 2px rgba(0,0,0,0.6);
     border: 1px solid black;
 }
@@ -64,5 +64,11 @@ outline:0;
 .number:focus,.operator:focus{
     outline: 0;
 
+}
+#name {
+color:#ffffff;
+position: absolute;
+top:50px;
+left:240px;
 }
 
